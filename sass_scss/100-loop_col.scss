@@ -1,0 +1,7 @@
+/*Columns and Operators*/
+
+@for $i from 1 through 4 {
+    .col-#{$i} {
+        width: percentage($i / 4);
+    }
+}

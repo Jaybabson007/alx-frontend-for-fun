@@ -1,0 +1,12 @@
+/*loop photos*/
+
+@import '11-photos';
+
+/* All the names will be listed */
+$list-names: julien, john, sam, damain;
+
+@each $name in $list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
